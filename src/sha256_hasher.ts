@@ -1,9 +1,10 @@
 import { createHash } from 'crypto';
+import { Hasher } from './hasher';
 
 /**
  * Implements a Hasher using the sha256 algorithm.
  */
-export class Sha256Hasher {
+export class Sha256Hasher implements Hasher {
   /**
    * Given two roots, the left hand subtree root, and the right hand subtree root, return a digest representing
    * the new tree root.

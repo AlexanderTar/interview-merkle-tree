@@ -18,15 +18,17 @@
     "rootDir": "./src"
   },
   "dependencies": {
-    "levelup": "^4.4.0",
+    "levelup": "^5.1.1",
     "memdown": "^5.1.0",
+    "subleveldown": "^6.0.1",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
     "@types/jest": "^26.0.10",
-    "@types/levelup": "^4.3.0",
+    "@types/levelup": "^5.1.1",
     "@types/memdown": "^3.0.0",
     "@types/node": "^12.6.8",
+    "@types/subleveldown": "^4.1.4",
     "jest": "^24.8.0",
     "prettier": "^2.0.5",
     "ts-jest": "^24.0.2"
